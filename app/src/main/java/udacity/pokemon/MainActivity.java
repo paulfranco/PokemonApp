@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
             if (jsonString != null) {
                 try {
                     //TODO: Create a new JSONObject
+                    JSONObject jsonObj = new JSONObject(jsonString);
 
                     // TODO: Get the JSON Array node and name it "pokemons"
 
